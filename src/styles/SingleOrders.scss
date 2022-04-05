@@ -1,0 +1,118 @@
+.single-orders-container {
+        width: 94%;
+        max-width: 1400px;
+        margin: auto;
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+
+        .user-card {
+                max-width: 800px;
+        }
+
+        .card-container {
+                max-width: 1000px;
+                max-height: fit-content;
+        }
+
+        .user-details {
+                margin: 0 20px;
+                margin-bottom: 50px;
+        
+                h2 {
+                        font-size: 1.3rem;
+                        font-weight: 700;
+                        margin: 20px 0;
+                }
+        
+                .details-card {
+                        padding: 25px 30px;
+                        border: 1px solid rgba(82, 82, 82, 0.2  );
+                        border-radius: 10px;
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        flex-wrap: wrap;
+        
+                        .field {
+                                min-width: 400px;
+                                max-width: 400px;
+        
+                                h3 {
+                                        font-size: 1rem;
+                                        font-weight: 600;
+                                }
+        
+                                span {
+                                        width: 94%;
+                                        display: block;
+                                        margin: 5px 0 20px 0;
+                                        padding: 10px 15px;
+                                        border-radius: 10px;
+                                        background-color: #f5f5f5;
+                                }
+
+                                input {
+                                        // border: 1px solid rgba(0,0,0,0.3);
+                                        border: none;
+                                        outline: none;
+                                        border-radius: 10px;
+                                        padding: 0 10px;
+                                        width: 94%;
+                                        font-size: 0.9rem;
+                                        height: 45px;
+                                        background-color: #f5f5f5;
+                                }
+
+                                button {
+                                        height: 40px;
+                                        border: none;
+                                        outline: none;
+                                        padding: 5px 20px;
+                                        margin: 15px 0;
+                                        color: #f5f5f5;
+                                        border-radius: 5px;
+                                        background-color: rgba(34, 77, 218, 0.918);
+                        
+                                        &:hover {
+                                                background-color: rgb(34, 77, 218);
+                                        }
+                                }
+                        }
+                }
+        
+        
+        }
+}
+
+.btn-container {
+        width: 94%;
+        max-width: 1400px;
+        margin: 20px auto;
+        
+        button {
+                width: 100px;
+                height: 40px;
+                border: none;
+                outline: none;
+                margin-left: 80px;
+                color: #f5f5f5;
+                border-radius: 3px;
+                background-color: rgba(34, 77, 218, 0.918);
+
+                &:hover {
+                        background-color: rgb(34, 77, 218);
+                }
+        }
+
+        button:nth-child(2) {
+                margin-left: 30px;
+                background-color: rgba(218, 34, 80, 0.918);
+
+                &:hover {
+                        background-color: rgb(218, 34, 80);
+                }
+        }
+}
