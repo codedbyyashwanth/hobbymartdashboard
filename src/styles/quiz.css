@@ -1,0 +1,127 @@
+
+.question-container {
+        width: 97%;
+        max-width: 1200px;
+        margin: 100px auto;
+}
+
+.heading h3 {
+        font-weight: 700;
+        font-size: 1.4rem;
+}
+
+.question-layout {
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 20px 60px;
+        box-shadow: 0 0 20px rgba(196, 196, 196, 0.541);
+}
+
+h4 {
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin: 30px 0 20px 0;
+}
+
+.text {
+        padding: 15px 25px;
+        border-radius: 10px;
+        color: #0e0b0b;
+        background-color: #F4F4F4;
+}
+
+.question-layout input {
+        width: 100%;
+        border: none;
+        outline: none;
+        display: inline-block;
+}
+
+.option-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+
+.options {
+        margin: 0 40px 0 0;     
+}
+
+.options p {
+        margin: 10px 0;
+}
+
+.correct-option {
+        margin-top: 30px;
+        max-width: calc((100%/2) - 40px);
+}
+
+.correct-option span {
+        font-weight: 700;
+}
+
+.correct-option p {
+        margin-top: 10px;
+}
+
+.btn-container {
+        text-align: right;
+}
+
+.e-btn{
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #F4F4F4;
+        border-radius: 5px;
+        margin: 0 15px;
+        background-color: #2b5af3;
+}
+
+#delete-btn {
+        width: fit-content;
+        padding: 0 20px;
+        background-color: rgb(231, 71, 71);
+}
+
+#add-btn {
+        border: none;
+        outline: none;
+        width: fit-content;
+        padding: 6px 20px;
+        color: #F4F4F4;
+        text-decoration: none;
+        margin: 0 20px;
+        border-radius: 4px;
+        background-color: #2b5af3;
+}
+
+#add-btn:hover {
+        background-color: #1d50f7;
+}
+
+.check-btn {
+        display: flex;
+        align-items: center;
+}
+
+.check-btn input {
+        width: 15px;
+        height: 15px;
+        margin: 0 5px;
+        cursor: pointer;
+}
+
+.e-btn:hover {
+        background-color: #2b5af3cb;
+        color: #F4F4F4;
+}
+        
+#delete-btn:hover {
+        background-color: rgba(255, 46, 46, 0.836);
+        color: #F4F4F4;
+}
+
+#btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+}
